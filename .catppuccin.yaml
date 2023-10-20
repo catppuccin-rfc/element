@@ -5,8 +5,8 @@ installation:
   hooks:
     pre:
       install: 
-        - type: shell
-        - args: ls -la
+      - type: shell
+      - args: ls -la
   location: 
     macos: ~/.config/Element/
     linux: ~/.config/Element/
