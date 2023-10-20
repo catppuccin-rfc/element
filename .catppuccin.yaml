@@ -6,8 +6,7 @@ installation:
     pre:
       install: 
         - type: shell
-        - args:
-          - ls
+        - args: ['ls', '-la']
   location: 
     macos: ~/.config/Element/
     linux: ~/.config/Element/
