@@ -2,6 +2,11 @@
 app_name: element
 binary_name: element-desktop 
 installation:
+  hooks:
+    pre:
+      install: 
+        - type: shell
+        - args: ls -la
   location: 
     macos: ~/.config/Element/
     linux: ~/.config/Element/
