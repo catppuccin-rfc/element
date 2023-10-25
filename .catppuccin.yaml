@@ -3,6 +3,15 @@ app_name: element
 binary_name: element-desktop 
 installation:
   hooks:
+    pre:
+      install: 
+      - type: shell
+        args:
+        - "ls"
+      uninstall:
+      - type: shell 
+        args: 
+        - "ls"
     post:
       install:
       - type: shell 
