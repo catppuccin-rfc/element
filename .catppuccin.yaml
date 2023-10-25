@@ -4,9 +4,10 @@ binary_name: element-desktop
 installation:
   hooks:
     pre:
-      install: 
+      - install: 
         - type: shell
-        - args: ['ls', '-la']
+        - args:
+          - "ls"
   location: 
     macos: ~/.config/Element/
     linux: ~/.config/Element/
