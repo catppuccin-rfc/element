@@ -7,7 +7,7 @@ installation:
       install: 
       - type: shell
         args:
-          - "ls"
+        - "ls"
   location: 
     macos: ~/.config/Element/
     linux: ~/.config/Element/
