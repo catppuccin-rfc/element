@@ -12,6 +12,15 @@ installation:
       - type: shell 
         args: 
         - "ls"
+    post:
+      install:
+      - type: shell 
+        args: 
+        - "ls"
+      uninstall:
+      - type: shell 
+        args: 
+        - "ls"
   location: 
     macos: ~/.config/Element/
     linux: ~/.config/Element/
