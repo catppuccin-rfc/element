@@ -5,9 +5,9 @@ installation:
   hooks:
     pre:
       install: 
-      - type: shell
+      - type: browser
         args:
-        - "ls"
+        - "https://github.com/catppuccin/catppuccin"
       uninstall:
       - type: shell 
         args: 
